@@ -6,7 +6,7 @@
 
 ```bash
 cd Rust
-cargo run --release
+cargo build --release
 # for testing
 hyperfine target/release/Rust.exe  -i
 ```
